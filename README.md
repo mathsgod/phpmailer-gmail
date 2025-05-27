@@ -1,4 +1,4 @@
-# PHPMailer GmailMailer
+# GmailMailer for PHPMailer 
 
 This project provides a `GmailMailer` class for sending emails via Gmail SMTP using PHPMailer and OAuth2 authentication.
 
