@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
 class GmailMailer extends PHPMailer
 {
-    public function __construct($exceptions = null, string $gmail, string $clientId, string $clientSecret, string $refreshToken)
+    public function __construct($exceptions, string $gmail, string $clientId, string $clientSecret, string $refreshToken)
     {
         parent::__construct($exceptions);
 
