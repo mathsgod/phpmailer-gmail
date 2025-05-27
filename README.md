@@ -45,15 +45,7 @@ This project provides a `GmailMailer` class for sending emails via Gmail SMTP us
 
 ## How to Get OAuth2 Credentials
 
-1. Go to the [Google Cloud Console](https://console.cloud.google.com/apis/credentials).
-2. Create a new OAuth2 client ID and client secret.
-3. Generate a refresh token for your Gmail account.
-4. Use these credentials in the `GmailMailer` constructor.
-
-## Notes
-
-- Do not commit your `vendor` directory or credentials to version control.
-- The `GmailMailer` class sets up PHPMailer with all necessary OAuth2 configuration for Gmail.
+For detailed instructions on obtaining OAuth2 credentials and generating a refresh token, please refer to the [thephpleague/oauth2-google GitHub repository](https://github.com/thephpleague/oauth2-google).
 
 ## License
 
